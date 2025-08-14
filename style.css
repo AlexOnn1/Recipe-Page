@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Young-serif";
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-receita{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 20%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+}
+.imagem-receita{
+    display: flex;
+    justify-content: center;
+}
+.container-receita .imagem-receita img{
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+.container-titulo{
+    display: flex;
+    justify-content: left;
+    background-color: rebeccapurple;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    font-family: Young-Serif;
+    font-weight: 400;
+    max-height: 50%;
+}
+
+.descricao{
+    text-align: justify;
+}
+.descricao p{
+    font-size: 16px;
+}
